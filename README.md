@@ -1,6 +1,8 @@
 # Wind-Turbine-Fault-Prediction
 
-Repository for study data of Wind Turbine Fault Prediction.
+Repository of studies with the objective of Predicting Faults in Wind Turbines using machine learning.
+
+## Data
 
 Due to the existing limitations in the data access from a real wind turbine, the method developed used simulation software to generate the database for SVM training. The TurbSim software is a stochastic, full-field, turbulent-wind simulator responsible for generating wind time series to the FAST simulations . The FAST is a code responsible for wind turbine model dynamics, such as aerodynamics, structural, wind, electrical and control dynamics. The FAST wind turbine model was based on a GE 1.5s wind turbine and, already validated in research. The National Renewable Energy Laboratory (NREL) developed both software. FAST does not allow access to all electrical quantities of the generator, such as the currents required for SVM training and classification. To overcome this limitation, the authors used the MATLAB Simulink software to model a permanent magnet synchronous generator, making it possible to store the generator currents in a database. Table I shows the wind turbine characteristics. 
 
